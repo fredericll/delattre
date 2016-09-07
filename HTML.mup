@@ -1,0 +1,57 @@
+{
+  "title": "HTML",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Http",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Procole",
+          "id": 3,
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "Un protocole est une convention qui permet de communiquer entre un client et un serveur."
+            },
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Serveur (web)",
+          "id": 4
+        },
+        "3": {
+          "title": "Client http",
+          "id": 5
+        }
+      }
+    },
+    "-1": {
+      "title": "Pages",
+      "id": "6.gd5da626d67d59213b",
+      "ideas": {
+        "1": {
+          "title": "Entête",
+          "id": "7.gd5da626d67d59213b",
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "Ce qui est entre les balise &lt;head&gt;&lt;/head&gt;<br><br>Il contient les métadonnées comme le type de codage de caractères utilisé<br><br>&lt;META char=utf-8&gt;<br><br>il peut aussi contenir des scripts."
+            },
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Corps",
+          "id": "8.gd5da626d67d59213b"
+        },
+        "3": {
+          "title": "Pied",
+          "id": "9.gd5da626d67d59213b"
+        }
+      }
+    }
+  }
+}
