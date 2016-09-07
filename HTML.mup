@@ -45,7 +45,38 @@
         },
         "2": {
           "title": "Corps",
-          "id": "8.gd5da626d67d59213b"
+          "id": "8.gd5da626d67d59213b",
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "Commence par la balise &lt;body&gt;&lt;/body&gt;<div><br></div><div>Il contient le contenu de la page que l'on voit à l'écran.</div><div><br></div><div>Il contient les balises qui permettent de modifier l'affichage du text et de faire des liens.</div>"
+            },
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Texte",
+              "id": 10,
+              "ideas": {
+                "1": {
+                  "title": "Lien",
+                  "id": 13
+                },
+                "2": {
+                  "title": "Liste",
+                  "id": 14
+                },
+                "3": {
+                  "title": "Tableau",
+                  "id": 15
+                }
+              }
+            },
+            "2": {
+              "title": "Image",
+              "id": 11
+            }
+          }
         },
         "3": {
           "title": "Pied",
