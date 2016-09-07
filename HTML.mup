@@ -38,7 +38,7 @@
           "attr": {
             "attachment": {
               "contentType": "text/html",
-              "content": "Ce qui est entre les balise &lt;head&gt;&lt;/head&gt;<br><br>Il contient les métadonnées comme le type de codage de caractères utilisé<br><br>&lt;META char=utf-8&gt;<br><br>il peut aussi contenir des scripts."
+              "content": "Ce qui est entre les balise &lt;head&gt;&lt;/head&gt;<br><br>Il contient les mÃ©tadonnÃ©es comme le type de codage de caractÃ¨res utilisÃ©<br><br>&lt;META char=utf-8&gt;<br><br>il peut aussi contenir des scripts."
             },
             "style": {}
           }
