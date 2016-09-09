@@ -4,27 +4,929 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "Http",
-      "id": 2,
+      "title": "Fonctionnement",
+      "id": "16.gd355cab1760d47d50",
       "ideas": {
         "1": {
-          "title": "Procole",
-          "id": 3,
+          "title": "URL",
+          "id": "17.gd355cab1760d47d50",
           "attr": {
+            "position": [
+              216.0363128889103,
+              -96.32727340067709,
+              6
+            ],
+            "style": {
+              "background": "#00ffff"
+            },
             "attachment": {
               "contentType": "text/html",
-              "content": "Un protocole est une convention qui permet de communiquer entre un client et un serveur."
+              "content": "L'Uniforme Ressource Locator (URL) est l'adresse Web d'un site, c'est à dire l'adresse du serveur qui l'héberge sur le réseau."
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Prococole\n(HTTP)",
+              "id": "22.gd355cab1760d47d50",
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "<div>En informatique, un protocole est l'ensemble des règles qui définit le mode de communication entre deux ordinateurs.</div><div><br></div>Le protocole HyperText Transfert Protocole est le protocole le plus utilisé sur internet depuis 1980. Il est destiné au transfert des fichiers HTML localisé à une URL.<div>Le protocole correspond à la première partie d'une URL, il est délimité par : &nbsp;(http:)<br><div><br></div><div>L'HTTPS est la version sécurisée du protocole HTTP, elle tend à se généraliser comme standard de communication depuis le milieu des années 2010.</div></div><div><br></div><div>Il existe d'autre protocole comme :</div><div>- FTP : pour le transfert des fichiers ;</div><div>- SMTP : pour l'envoi de messages via un client de messagerie ;</div><div>- POP : pour la réception de messages via un client de messagerie ;</div><div>- ...</div>"
+                },
+                "style": {
+                  "background": "#00ffff"
+                }
+              }
             },
-            "style": {}
+            "2": {
+              "title": "Localisation",
+              "id": "24.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#00ffff"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "//",
+                  "id": "27.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#00ffff"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "nom de domaine",
+                  "id": "29.gd355cab1760d47d50",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "<div>Chaque élément d'un domaine est séparé par un point (.).</div><div><br></div><div>Décomposition du nom de domaine www.exemple.fr</div><div><ul><li>www : sous-domaine (par défaut) ;</li><li>exemple : nom de domaine de deuxième niveau ;</li><li>fr : nom de domaine de premier niveau.</li></ul></div><div><br></div>Décomposition du nom de domaine de-lattre.paysdelaloire.e-lyco.fr/<div><ul><li>de-lattre : nom du site ;</li><li>paysdelaloire : sous-domaine ;</li><li>e-lyco : nom de domaine de deuxième niveau ;</li><li>fr : nom de domaine de premier niveau.</li></ul></div>"
+                    },
+                    "style": {
+                      "background": "#00ffff"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Chemin d'accès à la ressource",
+                  "id": "30.gd355cab1760d47d50",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Chemin absolu de la page web.&nbsp;<div><br></div><div>Il débute par un / et se termine par un /.&nbsp;</div><div><br></div><div>Le caractère de séparation entre deux dossiers est un /.</div>"
+                    },
+                    "style": {
+                      "background": "#00ffff"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "nom de la ressource",
+                  "id": "31.gd355cab1760d47d50",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Nom complet de la ressource :<div><ul><li>nom du fichier ;</li><li>\".\" pour séparer :</li><li>extension du fichier (html, pdf, jpg, ...).</li></ul></div>"
+                    },
+                    "style": {
+                      "background": "#00ffff"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "2": {
-          "title": "Serveur (web)",
-          "id": 4
+          "title": "Navigateur Web\n(client http)",
+          "id": "18.gd355cab1760d47d50",
+          "attr": {
+            "position": [
+              182.63630744681882,
+              129.98860739400573,
+              8
+            ],
+            "style": {
+              "background": "#00ffff"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "World Wide Web",
+              "id": "33.gd355cab1760d47d50",
+              "ideas": {
+                "1": {
+                  "title": "W3C",
+                  "id": "35.gd355cab1760d47d50",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Le <a href=\"http://www.w3schools.com/tags/\">World Wide Web Consortium</a>, est l'organisme qui normalise le langage html.<div><br></div><div>La normalisation actuelle est le html5.</div><div><br></div><div>La normalisation permet qu'une page s'affiche de manière semblable d'un navigateur à un autre.</div>"
+                    },
+                    "style": {
+                      "background": "#00ffff"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "World Wide Web pour Toile à la largeur du monde soit en français :<div><ul><li>internet ;</li><li>la toile ;</li><li>le web.</li></ul></div>"
+                },
+                "style": {
+                  "background": "#00ffff"
+                }
+              }
+            }
+          }
         },
         "3": {
-          "title": "Client http",
-          "id": 5
+          "title": "Serveur Web",
+          "id": "19.gd355cab1760d47d50",
+          "attr": {
+            "style": {
+              "background": "#00ffff"
+            },
+            "position": [
+              190.63630744681882,
+              207.59090231588073,
+              9
+            ]
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ffff"
+        }
+      }
+    },
+    "2": {
+      "title": "CSS",
+      "id": "97.gd355cab1760d47d50",
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        },
+        "attachment": {
+          "contentType": "text/html",
+          "content": "Cascading Style Sheet ou feuille de style en cascade.<div><br></div><div>Le CSS permet de définir le style des différents éléments d'une page html.</div>"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Intégration",
+          "id": "98.gd355cab1760d47d50",
+          "ideas": {
+            "1": {
+              "title": "dans l'entête",
+              "id": "99.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "<style type=\"text/css\">\n<! --",
+                  "id": 142,
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "La balise &lt;!-- .... --!&gt; indique au navigateur que le texte contenu dans la balise est un commentaire, il n'est donc pas afficher à l'écran.<div><br></div><div>La mise en commentaire des styles est indispensable pour les navigateurs qui ne supportent pas le css.</div>"
+                    },
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Déclaration des styles",
+                  "id": 144,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "--!>\n</style>",
+                  "id": 145,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "dans un fichier séparé",
+              "id": "100.gd355cab1760d47d50",
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "Afin d'éviter d'avoir à redéfinir le style de chaque page, il est recommandé de stocker la feuille de style dans un fichier séparer et de lier se fichier dans l'entête de chaque page html.<div><br></div><div>L'extension du fichier est css.</div>"
+                },
+                "style": {
+                  "background": "#99cc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Encodage\n@charset 'UTF-8'",
+                  "id": 156,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Déclaration des styles",
+                  "id": 157,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "dans une balise",
+              "id": 141,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "2": {
+          "title": "Syntaxe",
+          "id": "101.gd355cab1760d47d50",
+          "ideas": {
+            "1": {
+              "title": "Sélecteur",
+              "id": "102.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "De base",
+                  "id": 136,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "De balise",
+                      "id": 146,
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "Chaque balise à une correspondance dans le CSS qui permet de définir ses attributs de présentation."
+                        },
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "De classe\n.maClasse",
+                      "id": 147,
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "Il est possible de définir une classe qui comporte une ou plusieurs directives."
+                        },
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Universel\n*",
+                      "id": 148,
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "\"*\" est le sélecteur universel, c'est à dire que par défaut, les directives de ce sélecteur s'applique à toute la page."
+                        },
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Composé\nsélecteur.classe {...}",
+                  "id": 137,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    },
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Un sélecteur composés permet d'expliquer la relation entre deux sélecteurs.<div><br></div><div>Les possibilités sont :</div><div><ul><li>\".\" : tous les sélecteurs de la class ;</li><li>\" \" : aux sélecteurs descendants d'un ancêtre ;</li><li>\",\" : à chaque sélecteur séparés par la virgule ;</li><li>\"&gt;\" : aux enfants du sélecteur situé à gauche (similaire à \" \") ;</li><li>\"+\" &nbsp;aux sélecteur frères immédiatement adjacent ;</li><li>\"~\" : aux ésélecteurs frères de mêmes niveaux.</li></ul></div>"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Pseudo élément",
+                  "id": 139,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    },
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Les pseudo éléments sont utilisés pour définir une partie d'un sélecteur.<div><br></div><div>Exemple :</div><div><ul><li>::after : insère quelque chose après chaque contenu qui relève du sélecteur (par exemple une image après un titre) &nbsp;;</li><li>::before : insère quelque chose avant chaque contenu qui relève du sélecteur ;</li><li>::first-child : s'applique seulement au premier enfant d'un élément (par exemple une ligne avant la première ligne d'une liste à puce) ;</li><li>::last-child : s'applique seulement au dernier enfant d'un élément ;</li><li>::first-letter ;</li><li>:first-line ;</li><li>...</li></ul></div>"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Pseudo classe",
+                  "id": 140,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    },
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Une pseudo-classe définit le comportement d'un élément en fonction de son état.<div><br></div><div>exemple :</div><div><ul><li>cliqué ;</li><li>visité ;</li><li>survolé par le curseur ;</li><li>....</li></ul></div>"
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "{",
+              "id": "103.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Directive",
+              "id": 109,
+              "ideas": {
+                "1": {
+                  "title": "propriété",
+                  "id": "104.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": ":",
+                      "id": 106,
+                      "ideas": {
+                        "1": {
+                          "title": "valeur",
+                          "id": 107,
+                          "ideas": {
+                            "1": {
+                              "title": ";",
+                              "id": 108,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "}",
+              "id": "105.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Couleurs",
+          "id": 111,
+          "ideas": {
+            "1": {
+              "title": "Héxadécimalels",
+              "id": 112,
+              "ideas": {
+                "1": {
+                  "title": "#",
+                  "id": 116,
+                  "ideas": {
+                    "1": {
+                      "title": "Rouge\n00 à FF",
+                      "id": 118,
+                      "ideas": {
+                        "1": {
+                          "title": "Vert\n00 à FF",
+                          "id": 120,
+                          "ideas": {
+                            "1": {
+                              "title": "Bleu\n00 à FF",
+                              "id": 121,
+                              "attr": {
+                                "style": {
+                                  "background": "#000080"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#008000"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#ff0000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": "RGB",
+              "id": 114,
+              "ideas": {
+                "1": {
+                  "title": "rgb(",
+                  "id": 123,
+                  "ideas": {
+                    "1": {
+                      "title": "Rouge\n0 à 255",
+                      "id": 124,
+                      "ideas": {
+                        "1": {
+                          "title": ",",
+                          "id": 125,
+                          "ideas": {
+                            "1": {
+                              "title": "Vert\n0 à 255",
+                              "id": 126,
+                              "ideas": {
+                                "1": {
+                                  "title": ",",
+                                  "id": 127,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Bleu\n0 à 255",
+                                      "id": 128,
+                                      "ideas": {
+                                        "1": {
+                                          "title": ")",
+                                          "id": 129,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#99cc00"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#000080"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#008000"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#ff0000"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Rouge\n0 à 100%",
+                      "id": 130,
+                      "ideas": {
+                        "1": {
+                          "title": ",",
+                          "id": 131,
+                          "ideas": {
+                            "1": {
+                              "title": "Vert\n0 à 100%",
+                              "id": 132,
+                              "ideas": {
+                                "1": {
+                                  "title": ",",
+                                  "id": 133,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Bleu\n0 à 100%",
+                                      "id": 134,
+                                      "ideas": {
+                                        "1": {
+                                          "title": ")",
+                                          "id": 135,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#99cc00"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#000080"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#008000"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#ff0000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Nommée",
+              "id": 115,
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "De nombreuses couleurs définies en hexadécimales sont identifiées par un nom directement exploitable comme valeur d'une propriété couleur.<div><br></div><div>La liste est disponible sur le site de la <a href=\"http://www.w3schools.com/colors/colors_names.asp\">W3C school</a>.</div>"
+                },
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "Opacité",
+              "id": 158,
+              "ideas": {
+                "3": {
+                  "title": "Texte et images",
+                  "id": 177,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "cas général",
+                      "id": 176,
+                      "ideas": {
+                        "1": {
+                          "title": "opacity:",
+                          "id": 166,
+                          "ideas": {
+                            "1": {
+                              "title": "0 à 1",
+                              "id": 167,
+                              "attr": {
+                                "style": {
+                                  "background": "#c0c0c0"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#c0c0c0"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "IE8 et suiv",
+                      "id": 168,
+                      "ideas": {
+                        "1": {
+                          "title": "filter:",
+                          "id": 170,
+                          "ideas": {
+                            "1": {
+                              "title": "alpha(",
+                              "id": 172,
+                              "ideas": {
+                                "1": {
+                                  "title": "opacity:",
+                                  "id": 173,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "0 à 100",
+                                      "id": 174,
+                                      "ideas": {
+                                        "1": {
+                                          "title": ")",
+                                          "id": 175,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#c0c0c0"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#c0c0c0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#c0c0c0"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#c0c0c0"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#c0c0c0"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Fond",
+                  "id": 178,
+                  "ideas": {
+                    "1": {
+                      "title": "background :",
+                      "id": 180,
+                      "ideas": {
+                        "2": {
+                          "title": "rgba(",
+                          "id": 192,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "Rouge\n0 à 1",
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": ",",
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Vert\n0 à 1",
+                                      "attr": {
+                                        "style": {
+                                          "background": "#008000"
+                                        }
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": ",",
+                                          "attr": {
+                                            "style": {
+                                              "background": "#99cc00"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "1": {
+                                              "title": "Bleu\n0 à 1",
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#000080"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": ",",
+                                                  "attr": {
+                                                    "style": {
+                                                      "background": "#99cc00"
+                                                    }
+                                                  },
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "Opacité\n0 à 1",
+                                                      "attr": {
+                                                        "style": {
+                                                          "background": "#c0c0c0"
+                                                        }
+                                                      },
+                                                      "ideas": {
+                                                        "1": {
+                                                          "title": ")",
+                                                          "attr": {
+                                                            "style": {
+                                                              "background": "#99cc00"
+                                                            }
+                                                          },
+                                                          "id": 191
+                                                        }
+                                                      },
+                                                      "id": 190
+                                                    }
+                                                  },
+                                                  "id": 189
+                                                }
+                                              },
+                                              "id": 186
+                                            }
+                                          },
+                                          "id": 185
+                                        }
+                                      },
+                                      "id": 184
+                                    }
+                                  },
+                                  "id": 183
+                                }
+                              },
+                              "id": 182
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "4": {
+          "title": "Commentaires\n/* Texte */",
+          "id": 153,
+          "ideas": {},
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
         }
       }
     },
@@ -36,22 +938,65 @@
           "title": "Entête",
           "id": "7.gd5da626d67d59213b",
           "attr": {
-            "attachment": {
-              "contentType": "text/html",
-              "content": "Ce qui est entre les balise &lt;head&gt;&lt;/head&gt;<br><br>Il contient les mÃ©tadonnÃ©es comme le type de codage de caractÃ¨res utilisÃ©<br><br>&lt;META char=utf-8&gt;<br><br>il peut aussi contenir des scripts."
+            "style": {
+              "background": "#ff9900"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "<head>",
+              "id": "52.gd355cab1760d47d50",
+              "ideas": {},
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
             },
-            "style": {}
+            "2": {
+              "title": "</head>",
+              "id": "53.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "1.5": {
+              "title": "Les balises\n<meta>",
+              "id": "54.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                },
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "En particulier avec l'attribut&nbsp;charset=\"UTF-8\" pour définir l'encodage des caractères utilisés."
+                }
+              }
+            },
+            "1.75": {
+              "title": "<title> Titre de la page </title>",
+              "id": "55.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
           }
         },
         "2": {
-          "title": "Corps",
+          "title": "Corps\n<body>...</body>",
           "id": "8.gd5da626d67d59213b",
           "attr": {
             "attachment": {
               "contentType": "text/html",
               "content": "Commence par la balise &lt;body&gt;&lt;/body&gt;<div><br></div><div>Il contient le contenu de la page que l'on voit à l'écran.</div><div><br></div><div>Il contient les balises qui permettent de modifier l'affichage du text et de faire des liens.</div>"
             },
-            "style": {}
+            "style": {
+              "background": "#ff9900"
+            }
           },
           "ideas": {
             "1": {
@@ -59,30 +1004,639 @@
               "id": 10,
               "ideas": {
                 "1": {
-                  "title": "Lien",
-                  "id": 13
+                  "title": "Paragraphe\n<p>....</p>",
+                  "id": "89.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
                 },
                 "2": {
-                  "title": "Liste",
-                  "id": 14
-                },
-                "3": {
-                  "title": "Tableau",
-                  "id": 15
+                  "title": "Mise en forme",
+                  "id": "90.gd355cab1760d47d50",
+                  "ideas": {
+                    "1": {
+                      "title": "Texte formaté\n<em>...</em>\n<strong>...</strong>\n<mark> ... </mark>\n<cite> ... <cite>\n<dfn>...</dfn>",
+                      "id": "91.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Texte souligné\n<u> ... </u>",
+                      "id": "95.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Texte pré-formaté\n<pre> .... </pre>",
+                      "id": "96.gd355cab1760d47d50",
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "Permet d'éviter d'utiliser la balise &lt;br/&gt; pour faire des saut de ligne et &amp;nbspace; pour réaliser des suites d'espace."
+                        },
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "0.5": {
+                      "title": "Titre\nde <h1>...</h1>\nà <h6>...</h6>",
+                      "id": "93.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
                 }
               }
             },
             "2": {
               "title": "Image",
-              "id": 11
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "<img",
+                  "id": "77.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "src=\"emplacement\"",
+                  "id": "79.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "[attributs]",
+                  "id": "80.gd355cab1760d47d50",
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Parmi les attribut de l'image :<div><ul><li>alt : permet d'afficher un texte au survol de l'image par le curseur de la souris ;</li><li>height : hauteur de l'image en pixels ;</li><li>width : largeur de l'image en pixel.</li></ul></div>"
+                    },
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "4": {
+                  "title": ">",
+                  "id": "81.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "3": {
+              "title": "Lien",
+              "id": 13,
+              "ideas": {
+                "1": {
+                  "title": "Ancre",
+                  "id": "63.gd355cab1760d47d50",
+                  "ideas": {
+                    "1": {
+                      "title": "<a id=\"[nom]\">",
+                      "id": "65.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "contenu",
+                      "id": "66.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "</a>",
+                      "id": "67.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "Une ancre permet de créer des liens internes dans une page."
+                    },
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Lien",
+                  "id": "64.gd355cab1760d47d50",
+                  "ideas": {
+                    "1": {
+                      "title": "<a",
+                      "id": "68.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "href=\"[référence]\"",
+                      "id": "69.gd355cab1760d47d50",
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "\"#\" permet de faire référence à une ancre.<div><br></div><div>exemple en interne de page :</div><div>&lt;a id=\"haut\"&gt;&lt;/a&gt;<br></div><div>-</div><div>-</div><div>-</div><div>-</div><div>&lt;a href=\"#haut\"&gt;Haut de page&lt;/a&gt;</div><div><br></div><div>exemple pour une autre page :</div><div>&lt;a href=page2.html#bas&gt;Bas de la page 2&lt;/a&gt;</div>"
+                        },
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Attributs",
+                      "id": "70.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": ">",
+                      "id": "71.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "5": {
+                      "title": "Contenu du lien",
+                      "id": "72.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        },
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "Le contenu du lien peut être un texte ou une image."
+                        }
+                      }
+                    },
+                    "6": {
+                      "title": "</a>",
+                      "id": "73.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "4": {
+              "title": "Liste",
+              "id": 14,
+              "ideas": {
+                "1": {
+                  "title": "Liste à puces\n<ul>...</ul>",
+                  "id": "74.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Liste numérotée\n<ol>...</ol>",
+                  "id": "75.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Ligne d'une liste\n<li> ... </li>",
+                  "id": "76.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "5": {
+              "title": "Tableau\n<table>....</table>",
+              "id": "82.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Entête\n<th>...</th>",
+                  "id": "83.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Ligne\n<tr>...</tr>",
+                  "id": "84.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Données\n<td>...</td>",
+                  "id": "85.gd355cab1760d47d50",
+                  "ideas": {
+                    "1": {
+                      "title": "Fusion ligne\nrowspan",
+                      "id": "87.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Fusion colonne\ncolspan",
+                      "id": "88.gd355cab1760d47d50",
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    },
+                    "position": [
+                      282,
+                      91.18933587646484,
+                      1
+                    ]
+                  }
+                }
+              }
             }
           }
         },
         "3": {
           "title": "Pied",
-          "id": "9.gd5da626d67d59213b"
+          "id": "9.gd5da626d67d59213b",
+          "attr": {
+            "position": [
+              70.952,
+              276.81066412353516,
+              1
+            ],
+            "style": {
+              "background": "#ff9900"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "<footer>",
+              "id": "60.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "2": {
+              "title": "contenu",
+              "id": "61.gd355cab1760d47d50",
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "La balise footer a été introduite en html5.<div><br></div><div>Le contenu du pied de page est destiné à mettre des informations du type :</div><div><ul><li>information sur l'auteur ;</li><li>copyright ;</li><li>plan du site ;</li><li>...</li></ul></div>"
+                },
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            },
+            "3": {
+              "title": "</footer>",
+              "id": "62.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "</html>",
+          "id": "59.gd355cab1760d47d50",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "0.5": {
+          "title": "<!DOCTYPE html>",
+          "id": "57.gd355cab1760d47d50",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        },
+        "0.75": {
+          "title": "<html>",
+          "id": "58.gd355cab1760d47d50",
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          300.5,
+          136,
+          2
+        ],
+        "style": {
+          "background": "#ff9900"
+        }
+      }
+    },
+    "0.5": {
+      "title": "Balise",
+      "id": "37.gd355cab1760d47d50",
+      "attr": {
+        "position": [
+          83.5,
+          -851,
+          3
+        ],
+        "style": {
+          "background": "#ffcc99"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Syntaxe",
+          "id": "43.gd355cab1760d47d50",
+          "ideas": {
+            "1": {
+              "title": "<",
+              "id": "38.gd355cab1760d47d50",
+              "attr": {
+                "position": [
+                  81.61199999999997,
+                  -96.76800000000003,
+                  1
+                ],
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            },
+            "2": {
+              "title": "[nom]",
+              "id": "39.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            },
+            "3": {
+              "title": "[attributs]",
+              "id": "40.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            },
+            "4": {
+              "title": ">",
+              "id": "41.gd355cab1760d47d50",
+              "attr": {
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc99"
+            }
+          }
+        },
+        "2": {
+          "title": "Type",
+          "id": "44.gd355cab1760d47d50",
+          "ideas": {
+            "1": {
+              "title": "Double",
+              "id": "45.gd355cab1760d47d50",
+              "ideas": {
+                "1": {
+                  "title": "<[nom]>",
+                  "id": "47.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc99"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "contenu",
+                  "id": "48.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc99"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "</[nom]>",
+                  "id": "49.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc99"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            },
+            "2": {
+              "title": "Orpheline",
+              "id": "50.gd355cab1760d47d50",
+              "ideas": {
+                "1": {
+                  "title": "<[nom]> \n<[nom] />",
+                  "id": "51.gd355cab1760d47d50",
+                  "attr": {
+                    "style": {
+                      "background": "#ffcc99"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ffcc99"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc99"
+            }
+          }
         }
       }
     }
-  }
+  },
+  "attr": {
+    "attachment": {
+      "contentType": "text/html",
+      "content": "L'HyperText Mark up Language (HTML) est un langage de description"
+    },
+    "style": {},
+    "storyboards": [
+      "Storyboard 1"
+    ]
+  },
+  "links": [
+    {
+      "ideaIdFrom": "18.gd355cab1760d47d50",
+      "ideaIdTo": "19.gd355cab1760d47d50",
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "solid",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "17.gd355cab1760d47d50",
+      "ideaIdTo": "18.gd355cab1760d47d50",
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "solid",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "37.gd355cab1760d47d50",
+      "ideaIdTo": "6.gd5da626d67d59213b",
+      "attr": {
+        "style": {
+          "color": "#000080",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "83.gd355cab1760d47d50",
+      "ideaIdTo": "85.gd355cab1760d47d50",
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": "84.gd355cab1760d47d50",
+      "ideaIdTo": "85.gd355cab1760d47d50",
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ],
+  "resources": {}
 }
